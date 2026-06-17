@@ -1,0 +1,17 @@
+build/
+install/
+log/
+
+*.pyc
+__pycache__/
+
+.vscode/
+.idea/
+
+*.db
+*.sqlite3
+
+*.bag
+*.bag.active
+
+.env
