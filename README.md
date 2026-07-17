@@ -25,14 +25,13 @@ A ROS-based obstacle avoidance system for autonomous robots, featuring sensor in
    cd ~/catkin_ws/src
    git clone <repository-url>
    ```
-
 2. Install dependencies:
 
    ```bash
    rosdep install --from-paths src --ignore-src -r -y
    ```
-
 3. Build the workspace:
+
    ```bash
    cd ~/catkin_ws
    catkin_make
@@ -48,8 +47,8 @@ A ROS-based obstacle avoidance system for autonomous robots, featuring sensor in
    ```bash
    roslaunch obstacle_avoidance gazebo.launch
    ```
-
 2. Start the obstacle avoidance node:
+
    ```bash
    rosrun obstacle_avoidance avoidance_node.py
    ```
